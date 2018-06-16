@@ -62,7 +62,7 @@ body {
     margin: auto;
     background-color: white;
     color: #777777;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 10px 10px;
 
 }
 
@@ -71,14 +71,14 @@ h2 {
     color: #4aaaa5;
 }
 
-hr {
+.gray-line {
     background-color:  #777777;
-    padding: 1px;
+    padding: 2px;
     margin: 6px;
 }
 #bio-image {
     width: 200px;
-    padding: 6px;
+    padding: 10px;
     height: 200px;
     margin-right: 20px;
     float: left;
@@ -118,7 +118,7 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-/* Profile PG */
+/* Portfolio */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -141,12 +141,20 @@ input[type=submit]:hover {
 }
 
 .site-footer, .page-wrap:after {
-      height: 45px; 
-  }
-  .site-footer {
+    height: 45px; 
+}
+
+.site-footer {
     text-align: center;
     background-color: #666666;
-    font-size: 8px;
+    font-size: 10px;
     color: white;
     line-height: 40px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.border-top {
+    background-color: #4aaaa5;
+    padding: 2px;
 }
