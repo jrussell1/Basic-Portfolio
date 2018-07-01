@@ -246,6 +246,21 @@ margin-top: 10px;
 margin-right: 25px;
 }
 
+#hover-img {
+    color: white;
+}
+
+#hover-img:hover,
+input[type=submit]:hover {
+background: white;
+color: black;
+}
+
+#hover-img:hover {
+background: #4aaaa5;
+color: black;
+}
+
 /* contact */
 
 #contact-form ul {
