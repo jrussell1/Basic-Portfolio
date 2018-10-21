@@ -23,23 +23,30 @@
     <section class="main-section">
       <h1>Contact</h1>
 
-      <form id="contact-form">
+      <form id="contactform" action="//formspree.io/jordanrussell1@gmail.com" method="POST">
         <ul>
           <li>
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            <input type="text" id="name" name="name" placeholder="Your Name" required="required">
           </li>
           <li>
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+            <input type="email" id="email" name="_replyto" placeholder="example@gmail.com" required="required">
+            <input type="hidden" name="_subject" value="Website contact"/>
           </li>
           <li>
             <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
+            <textarea id="message" name="message" placeholder="Your Message" required="required"></textarea>
+            <input type="text" name="_gotcha" style="display:none"/>
           </li>
         </ul>
-        <input type="submit">
+        <input type="submit" value="Send">
       </form>
+
+      <script>
+        var contactform =  document.getElementById('contactform');
+        contactform.setAttribute('action', '//formspree.io/' + 'jordanrussell1' + '@' + 'gmail' + '.com' + 'com');
+    </script>
 
     </section>
     <section class="sidebar">
