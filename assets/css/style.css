@@ -213,6 +213,7 @@ max-width: 274px;
 margin: 20px 0 25px;
 box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 overflow: auto;
+border: 2px solid grey;
 }
 
 .portfolio-imgs:nth-child(even) {
